@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Alinhamentos, Espaçamentos, Larguras, Alturas */
+header, main, footer {
+  text-align: center;
+}
+
+header, .form, main {
+  margin: 0 auto 70px;
+  width: 90%;
+  max-width: 500px;
+}
+
+header h1, main h2 {
+  margin-bottom: 70px;
+}
+
+main h2 span {
+  color: #ff4f4f;
+}
+
+header button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #ff4f4f;
+  color: #fff;
+  font-weight: bold;
+  margin: 8px 0 0;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 45px;
+  align-items: center;
+  background-color: #ff4f4f;
+  padding: 16px 64px;
+  border-radius: 16px;
+}
+
+.form h2 {
+  text-align: right;
+  color: #ffffffee;
+  font-size: 18px;
+}
+
+form input {
+  background-color: transparent;
+}
+
+form input::placeholder {
+  color: #ffffffee;
+}
+
+form input, form button {
+  width: 100%;
+  margin-bottom: 4px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ffffffee;
+}
+
+.donors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer {
+  margin-top: auto;
+  padding: 16px;
+  border: 1px solid #eee;
+}
