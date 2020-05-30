@@ -1,0 +1,17 @@
+{
+  "name": "maratonadev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tainasimoes/maratonadev.git",
+  "author": "Taina Simoes <taina.simoes.santos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1",
+    "pg": "^8.2.1"
+  }
+}
